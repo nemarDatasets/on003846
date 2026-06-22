@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003846",
+  "source": "openneuro",
+  "source_id": "ds003846",
+  "title": "Prediction Error",
+  "authors": {
+    "Lukas Gehrke": {},
+    "Sezen Akman": {},
+    "Albert Chen": {},
+    "Pedro Lopes": {},
+    "Klaus Gramann": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003846.v2.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg",
+    "motion"
+  ],
+  "datatypes": [
+    "eeg",
+    "motion"
+  ],
+  "acknowledgements": "We thank Avinash Singh, Tim Chen and C.-T. Lin from the Univsersity of Sydney (New South Wales, Australia) for their help developing the task."
+}
