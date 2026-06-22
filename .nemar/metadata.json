@@ -1,34 +1,119 @@
 {
   "version": "2.0",
-  "dataset_id": "on003846",
-  "source": "openneuro",
-  "source_id": "ds003846",
+  "pipeline_stage": "validated",
   "title": "Prediction Error",
-  "authors": {
-    "Lukas Gehrke": {},
-    "Sezen Akman": {},
-    "Albert Chen": {},
-    "Pedro Lopes": {},
-    "Klaus Gramann": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Lukas Gehrke": {
+      "orcid": "0000-0003-3661-1973"
+    },
+    "Sezen Akman": {},
+    "Albert Chen": {},
+    "Pedro Lopes": {
+      "orcid": "0000-0001-6527-7084"
+    },
+    "Klaus Gramann": {
+      "orcid": "0000-0003-2673-1832"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003846.v2.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003846",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003846",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003846",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.1145/3290605.3300657",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/ac69bc",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg",
     "motion"
   ],
-  "datatypes": [
-    "eeg",
-    "motion"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "We thank Avinash Singh, Tim Chen and C.-T. Lin from the Univsersity of Sydney (New South Wales, Australia) for their help developing the task."
+  "formats": [
+    ".cff",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises high-density EEG recordings from 19 participants (ages 18-34 years) performing a cyber-physical systems task involving prediction error and haptic feedback across 5 sessions. Participants engaged in a visuomotor task with varying levels of sensory stimulation (visual, vibrotactile, and electrical muscle stimulation). The study investigates neural correlates of prediction errors in human-computer interaction, combining EEG with motion capture data from head and right hand tracking.",
+  "methods_description": "EEG data were recorded using a 63-channel BrainAmp DC system (Brain Products) with an EasyCap actiCap 64ch electrode cap positioned according to the 10% system, referenced to FCz with ground at AFz. One EOG channel was included for eye movement monitoring. Motion capture was performed using HTC Vive trackers on the head and right hand at 90 Hz sampling frequency. Participants completed a haptic task across three stimulation blocks with varying combinations of visual, vibrotactile, and electrical muscle stimulation feedback. The study was approved by the local ethics board at the Institute of Psychology and Ergonomics at TU Berlin (number GR_10_20180603).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "prediction error"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "haptic feedback"
+    },
+    {
+      "term": "vibrotactile stimulation"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "cyber-physical systems"
+    },
+    {
+      "term": "human-computer interaction"
+    },
+    {
+      "term": "motion capture"
+    },
+    {
+      "term": "visuomotor task"
+    },
+    {
+      "term": "electrical muscle stimulation"
+    },
+    {
+      "term": "high-density EEG"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Not funded"
+    },
+    {
+      "funder_name": "Technische Universität Berlin"
+    }
+  ],
+  "source_hash": "fe6ae1224dfa4cb9c66a8f0bcb60ffc0dd80c5e6557960349aad0ff27156c0b4"
 }
