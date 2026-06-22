@@ -1,23 +1,29 @@
 {
-    "Name": "Prediction Error",
-    "BIDSVersion": "1.8.0",
-    "DatasetType": "raw",
-    "Acknowledgements": "We thank Avinash Singh, Tim Chen and C.-T. Lin from the Univsersity of Sydney (New South Wales, Australia) for their help developing the task.",
-    "Authors": [
-        "Lukas Gehrke",
-        "Sezen Akman",
-        "Albert Chen",
-        "Pedro Lopes",
-        "Klaus Gramann"
-    ],
-    "Funding": [
-        ""
-    ],
-    "EthicsApprovals": [
-        "Local ethics board at the Institute of Psychology and Ergonomics at TU Berlin number GR_10_20180603"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds003846.v2.0.2",
-    "HowToAcknowledge": "See CITATION.cff",
-    "License": "CC0",
-    "ReferencesAndLinks": []
+  "Name": "Prediction Error",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "raw",
+  "Acknowledgements": "We thank Avinash Singh, Tim Chen and C.-T. Lin from the Univsersity of Sydney (New South Wales, Australia) for their help developing the task.",
+  "Authors": [
+    "Lukas Gehrke",
+    "Sezen Akman",
+    "Albert Chen",
+    "Pedro Lopes",
+    "Klaus Gramann"
+  ],
+  "Funding": [
+    ""
+  ],
+  "EthicsApprovals": [
+    "Local ethics board at the Institute of Psychology and Ergonomics at TU Berlin number GR_10_20180603"
+  ],
+  "DatasetDOI": "10.82901/nemar.on003846",
+  "HowToAcknowledge": "See CITATION.cff",
+  "License": "CC0",
+  "ReferencesAndLinks": [],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds003846.v2.0.2"
+    }
+  ],
+  "Version": "1.0.0"
 }
