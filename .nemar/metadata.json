@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Prediction Error",
+  "description": "This dataset comprises EEG recordings from 19 participants performing a cyber-physical systems task involving prediction error processing with multimodal sensory stimulation. Participants received visual, vibrotactile, and electrical muscle stimulation (EMS) across three experimental blocks while their brain activity was recorded using a 63-channel high-density EEG system. The study investigates neural responses to prediction errors in a haptic interaction task with varying levels of sensory realism. Data were collected across 5 sessions with 3 stimulation blocks per session.",
+  "methods_description": "EEG data were collected using a Brain Products BrainAmp DC amplifier with a 63-channel EasyCap actiCap 64ch CACS-64 electrode cap positioned according to the 10% system, with reference at FCz and ground at AFz. One EOG channel was recorded to monitor eye movements. The system operated at a power line frequency of 50 Hz with a sampling rate of 1000 Hz. Motion capture data were simultaneously recorded at 90 Hz using HTC Vive trackers on the head and right hand. Participants (ages 18-34 years) completed the task in three stimulation blocks combining visual, vibrotactile, and electrical muscle stimulation modalities. The task employed an oddball paradigm with prediction error manipulation across conditions of varying haptic realism.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,12 +19,39 @@
       "orcid": "0000-0003-2673-1832"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003846.v2.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "prediction error"
+    },
+    {
+      "term": "haptic feedback"
+    },
+    {
+      "term": "haptic interaction"
+    },
+    {
+      "term": "sensory integration"
+    },
+    {
+      "term": "multimodal stimulation"
+    },
+    {
+      "term": "cyber-physical systems"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "motion capture"
+    },
+    {
+      "term": "oddball paradigm"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003846",
       "identifier_type": "URL",
@@ -47,64 +76,11 @@
       "identifier": "10.1088/1741-2552/ac69bc",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg",
-    "motion"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".cff",
-    ".eeg",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset comprises high-density EEG recordings from 19 participants (ages 18-34 years) performing a cyber-physical systems task involving prediction error and haptic feedback across 5 sessions. Participants engaged in a visuomotor task with varying levels of sensory stimulation (visual, vibrotactile, and electrical muscle stimulation). The study investigates neural correlates of prediction errors in human-computer interaction, combining EEG with motion capture data from head and right hand tracking.",
-  "methods_description": "EEG data were recorded using a 63-channel BrainAmp DC system (Brain Products) with an EasyCap actiCap 64ch electrode cap positioned according to the 10% system, referenced to FCz with ground at AFz. One EOG channel was included for eye movement monitoring. Motion capture was performed using HTC Vive trackers on the head and right hand at 90 Hz sampling frequency. Participants completed a haptic task across three stimulation blocks with varying combinations of visual, vibrotactile, and electrical muscle stimulation feedback. The study was approved by the local ethics board at the Institute of Psychology and Ergonomics at TU Berlin (number GR_10_20180603).",
-  "keywords": [
-    {
-      "term": "EEG"
     },
     {
-      "term": "prediction error"
-    },
-    {
-      "term": "oddball paradigm"
-    },
-    {
-      "term": "haptic feedback"
-    },
-    {
-      "term": "vibrotactile stimulation"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "cyber-physical systems"
-    },
-    {
-      "term": "human-computer interaction"
-    },
-    {
-      "term": "motion capture"
-    },
-    {
-      "term": "visuomotor task"
-    },
-    {
-      "term": "electrical muscle stimulation"
-    },
-    {
-      "term": "high-density EEG"
+      "identifier": "10.18112/openneuro.ds003846.v2.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -115,5 +91,24 @@
       "funder_name": "Technische Universität Berlin"
     }
   ],
-  "source_hash": "fe6ae1224dfa4cb9c66a8f0bcb60ffc0dd80c5e6557960349aad0ff27156c0b4"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg",
+    "motion"
+  ],
+  "sizes": [
+    "12.2 GB (244 files)"
+  ],
+  "formats": [
+    ".cff",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "23b23611242add4871a69af1588738f903e1b573e85fc796d2a0ca18358f87f8"
 }
