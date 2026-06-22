@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Prediction Error",
-  "description": "This dataset comprises EEG recordings from 19 participants performing a cyber-physical systems task involving prediction error processing with multimodal sensory stimulation. Participants received visual, vibrotactile, and electrical muscle stimulation (EMS) across three experimental blocks while their brain activity was recorded using a 63-channel high-density EEG system. The study investigates neural responses to prediction errors in a haptic interaction task with varying levels of sensory realism. Data were collected across 5 sessions with 3 stimulation blocks per session.",
-  "methods_description": "EEG data were collected using a Brain Products BrainAmp DC amplifier with a 63-channel EasyCap actiCap 64ch CACS-64 electrode cap positioned according to the 10% system, with reference at FCz and ground at AFz. One EOG channel was recorded to monitor eye movements. The system operated at a power line frequency of 50 Hz with a sampling rate of 1000 Hz. Motion capture data were simultaneously recorded at 90 Hz using HTC Vive trackers on the head and right hand. Participants (ages 18-34 years) completed the task in three stimulation blocks combining visual, vibrotactile, and electrical muscle stimulation modalities. The task employed an oddball paradigm with prediction error manipulation across conditions of varying haptic realism.",
+  "description": "This dataset comprises EEG recordings from 19 participants performing a cyber-physical systems task involving prediction error processing with multimodal sensory stimulation. Participants received visual, vibrotactile, and electrical muscle stimulation (EMS) across three experimental blocks while their brain activity was recorded using a 63-channel high-density EEG system. The study investigates neural responses to prediction errors in a haptic interaction task with varying levels of sensory realism.",
+  "methods_description": "EEG data were collected using a Brain Products BrainAmp DC amplifier with a 63-channel EasyCap actiCap 64ch CACS-64 electrode cap positioned according to the 10% system, with reference at FCz and ground at AFz. One EOG channel was recorded to monitor eye movements. The system operated at a power line frequency of 50 Hz. Motion capture data were simultaneously recorded at 90 Hz using HTC Vive trackers on the head and right hand. Participants completed three stimulation blocks combining visual, vibrotactile, and electrical muscle stimulation in different combinations across 5 sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -30,13 +30,7 @@
       "term": "haptic feedback"
     },
     {
-      "term": "haptic interaction"
-    },
-    {
       "term": "sensory integration"
-    },
-    {
-      "term": "multimodal stimulation"
     },
     {
       "term": "cyber-physical systems"
@@ -48,7 +42,25 @@
       "term": "motion capture"
     },
     {
-      "term": "oddball paradigm"
+      "term": "vibrotactile"
+    },
+    {
+      "term": "electrical muscle stimulation"
+    },
+    {
+      "term": "high-density EEG"
+    },
+    {
+      "term": "oddball"
+    },
+    {
+      "term": "error processing"
+    },
+    {
+      "term": "haptic interaction"
+    },
+    {
+      "term": "haptic realism"
     }
   ],
   "related_identifiers": [
@@ -81,6 +93,11 @@
       "identifier": "10.18112/openneuro.ds003846.v2.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.82901/nemar.on003846",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
     }
   ],
   "funding_references": [
