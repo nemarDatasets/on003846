@@ -1,9 +1,2 @@
 * annex.backend=MD5E
 **/.git* annex.largefiles=nothing
-*.bval annex.largefiles=nothing
-*.bvec annex.largefiles=nothing
-*.json annex.largefiles=largerthan=1mb
-*.tsv annex.largefiles=largerthan=1mb
-.bidsignore annex.largefiles=nothing
-CHANGES annex.largefiles=nothing
-README annex.largefiles=nothing
