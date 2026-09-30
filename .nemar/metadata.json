@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Prediction Error",
-  "description": "This dataset comprises EEG recordings from 19 participants performing a cyber-physical systems task involving prediction error processing with multimodal sensory stimulation. Participants received visual, vibrotactile, and electrical muscle stimulation (EMS) across three experimental blocks while their brain activity was recorded using a 63-channel high-density EEG system. The study investigates neural responses to prediction errors in a haptic interaction task with varying levels of sensory realism.",
-  "methods_description": "EEG data were collected using a Brain Products BrainAmp DC amplifier with a 63-channel EasyCap actiCap 64ch CACS-64 electrode cap positioned according to the 10% system, with reference at FCz and ground at AFz. One EOG channel was recorded to monitor eye movements. The system operated at a power line frequency of 50 Hz. Motion capture data were simultaneously recorded at 90 Hz using HTC Vive trackers on the head and right hand. Participants completed three stimulation blocks combining visual, vibrotactile, and electrical muscle stimulation in different combinations across 5 sessions.",
+  "description": "EEG and motion-capture dataset from 19 participants performing a haptic interaction task in virtual reality, in which participants touched virtual objects while visual, vibrotactile, and electrical muscle stimulation feedback was varied. Some trials were designed as oddball conflicts to elicit prediction error responses. The recordings support research on the neural correlates of prediction errors and on detecting unrealistic interactions in cyber-physical systems.",
+  "methods_description": "63-channel EEG was recorded with a Brain Products BrainAmp DC amplifier and an EasyCap actiCap 64ch cap (reference FCz, ground AFz), plus one EOG channel. HTC Vive head and right-hand motion capture was recorded at 90 Hz. Stimulation was delivered in three blocks combining visual, vibrotactile, and EMS feedback, with normal versus conflict (oddball) trials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,50 +27,21 @@
       "term": "prediction error"
     },
     {
+      "term": "virtual reality"
+    },
+    {
       "term": "haptic feedback"
-    },
-    {
-      "term": "sensory integration"
-    },
-    {
-      "term": "cyber-physical systems"
-    },
-    {
-      "term": "motor control"
     },
     {
       "term": "motion capture"
     },
     {
-      "term": "vibrotactile"
-    },
-    {
       "term": "electrical muscle stimulation"
-    },
-    {
-      "term": "high-density EEG"
-    },
-    {
-      "term": "oddball"
-    },
-    {
-      "term": "error processing"
-    },
-    {
-      "term": "haptic interaction"
-    },
-    {
-      "term": "haptic realism"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003846",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003846",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -82,12 +53,12 @@
     {
       "identifier": "10.1145/3290605.3300657",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1088/1741-2552/ac69bc",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds003846.v2.0.2",
@@ -95,9 +66,9 @@
       "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "10.82901/nemar.on003846",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "identifier": "https://nemar.org/dataset/on003846",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -115,7 +86,7 @@
     "motion"
   ],
   "sizes": [
-    "12.2 GB (244 files)"
+    "11.35 GB (244 files)"
   ],
   "formats": [
     ".cff",
